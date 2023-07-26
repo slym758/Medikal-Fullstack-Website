@@ -1,0 +1,23 @@
+{
+  "name": "medical-full",
+  "version": "1.0.0",
+  "description": "medical full stack website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slym758/Medical-Deployment.git"
+  },
+  "keywords": [
+    "medical",
+    "website"
+  ],
+  "author": "süleyman ardıç",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slym758/Medical-Deployment/issues"
+  },
+  "homepage": "https://github.com/slym758/Medical-Deployment#readme"
+}
