@@ -376,6 +376,10 @@
   .react-multi-carousel-item {
     width: 100% !important;
   }
+
+  .firm_img img {
+    width: 250px !important;
+  }
 }
 
 /* -----------------------------------------------------
