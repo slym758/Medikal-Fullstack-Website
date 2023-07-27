@@ -1,0 +1,126 @@
+.Home_Product {
+  background-color: #fff;
+}
+
+.Home_Product .title {
+  padding-top: 55px;
+}
+
+.Product_home {
+  padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 25px;
+}
+
+.Product_home_wrapper {
+  width: 100%;
+  margin-top: 55px;
+  transition: 0.6s;
+  border: rgb(233, 227, 227) solid 3px;
+  border-radius: 25px;
+}
+
+.Product_home_wrapper:hover {
+  border: #0b6c8d solid 3px;
+  transition: 0.6s;
+}
+
+.Product_home_Image {
+  margin-bottom: -15px;
+}
+
+.Product_home_Image img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 100%;
+  width: 100%;
+}
+
+.Product_home_content {
+  margin-top: -15px;
+  background-color: rgb(253, 253, 253);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.PHcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PHcontent .PHcatagory {
+  margin-top: 15px;
+  font-size: 16px;
+  color: rgb(99, 106, 112);
+}
+
+.PHcontent .PHname a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+}
+
+.PHprice {
+  margin-top: 15px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1bb5e9;
+}
+
+.PHbutton {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.PHbutton button {
+  width: 150px;
+  border-radius: 25px;
+  transition: 0.6s;
+}
+.PHbutton button:hover {
+  transition: 0.6s;
+  background-color: #214dc6;
+}
+
+.nav-tabs .nav-link.active {
+  border-radius: 15px;
+  background-image: linear-gradient(
+    to right,
+    #5bd6f8,
+    #4ecbeb,
+    #41bfdf,
+    #32b4d2,
+    #21a9c6
+  );
+  color: #fff;
+}
+
+.nav-tabs .nav-link.active h3 {
+  color: #fff;
+}
+
+/* RESPONSİVE
+ */
+
+@media only screen and (max-width: 600px) {
+  .Product_home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .PHbutton button {
+    padding: 10px;
+    font-size: 15px !important;
+    height: 40px;
+    width: 80px;
+    border-radius: 25px;
+    transition: 0.6s;
+  }
+
+  .Home_Product .nav-tabs {
+    padding-left: 35px;
+  }
+}

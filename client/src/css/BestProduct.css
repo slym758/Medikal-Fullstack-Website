@@ -1,0 +1,113 @@
+.Best_Product {
+  background-color: #fff;
+  padding-bottom: 55px;
+}
+
+.Best_Product .title {
+  padding-top: 55px;
+}
+
+.Product_best {
+  padding: 25px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.Product_best_wrapper {
+  width: 100%;
+  margin-top: 55px;
+  transition: 0.6s;
+  border: rgb(233, 227, 227) solid 3px;
+  border-radius: 25px;
+}
+
+.Product_best_wrapper:hover {
+  border: #0b6c8d solid 3px;
+  transition: 0.6s;
+}
+
+.Product_best_Image {
+  margin-bottom: -15px;
+}
+
+.Product_best_Image img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 300px;
+  width: 100%;
+}
+
+.Product_best_content {
+  margin-top: -15px;
+  background-color: rgb(253, 253, 253);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.PBcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PBcontent .PBcatagory {
+  margin-top: 15px;
+  font-size: 16px;
+  color: rgb(99, 106, 112);
+}
+
+.PBcontent .PBname a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+}
+
+.PBprice {
+  margin-top: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1bb5e9;
+}
+
+.PBbutton {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.PBbutton button {
+  width: 150px;
+  border-radius: 25px;
+}
+.PBbutton button:hover {
+  background-color: #10499e;
+}
+.react-multi-carousel-item {
+  margin-right: 90px;
+  margin-bottom: 90px;
+}
+
+.react-multi-carousel-dot button {
+  background: #1bb5e9;
+  border-color: #fff;
+}
+
+.react-multi-carousel-dot--active button {
+  background: #0c485c;
+}
+
+.react-multiple-carousel__arrow {
+  background: rgba(195, 206, 207, 0.5);
+}
+
+.react-multiple-carousel__arrow:hover {
+  background: rgba(25, 220, 238, 0.5);
+}
+
+.react-multiple-carousel__arrow::before {
+  color: black;
+}
+
+.react-multi-carousel-list {
+  height: 750px;
+}

@@ -1,0 +1,454 @@
+.App {
+  background-image: url(./assets/cool-background.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.whattsap a {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 80px;
+  height: 80px;
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #25d366;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: 0.6s;
+
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.whattsap span {
+  margin-bottom: 38px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.logo {
+  height: 60px;
+}
+.nav_menu {
+  padding: 15px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.nav_menu .nav_item {
+  margin-right: 15px;
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  transition: 0.6s;
+}
+
+.nav_menu .nav_item:hover {
+  color: rgb(32, 127, 204);
+  transition: 0.6s;
+}
+
+.nav_right .nav_item_right {
+  font-size: 20px;
+  color: rgb(32, 127, 204);
+}
+
+.nav_right .nav_item_right i {
+  font-size: 35px;
+}
+
+.navbar {
+  background-color: #ffffffe7;
+}
+
+.carousel_img {
+  width: 50%;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+
+/* Card */
+/* ----------------------------------------------- */
+
+.About_card .title_content {
+  border-bottom: 3px solid #003242;
+  border-top: 3px solid #003242;
+}
+
+.About_card .title {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+
+.title {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_content {
+  padding: 15px 0;
+  text-align: center;
+  background: url(./assets/card.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #003242;
+  font-family: "Titillium Web", sans-serif;
+  line-height: 50px;
+  font-size: 45px;
+}
+
+.title_information p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+}
+
+.card_content {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 55px;
+}
+
+.card_box {
+  background-color: #ffffff;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #1986cf;
+  width: 350px;
+  margin-bottom: 35px;
+  transition: 0.6s;
+}
+
+.card_information h1 {
+  color: #003242;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  font-size: 25px;
+  transition: 0.6s;
+}
+
+.card_information p {
+  text-align: center;
+  padding: 25px;
+  font-size: 19px;
+}
+
+.card_icon {
+  color: #0b6c8d;
+  transition: 0.6s;
+  font-size: 85px;
+}
+
+.card_box:hover {
+  box-shadow: 0 0 40px 0px #0b6c8d;
+  transition: 0.6s;
+}
+
+.card_icon:hover {
+  transition: 0.6s;
+  color: #adb817;
+}
+/* -------------------------------------------------------------------------- */
+.icon-remove {
+  font-size: 15px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-remove img {
+  width: 80px;
+}
+
+.tab {
+  margin-top: 55px;
+}
+.nav-justified .nav-item {
+  width: 2000px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.nav-tabs .nav-link.active {
+  border: rgb(255, 255, 255) solid 2px !important;
+  background-color: #79d4f3 !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.firm {
+  margin-bottom: -16px;
+}
+
+.firm .title {
+  background-color: #ffffff;
+}
+
+.firm_img {
+  width: 50%;
+  height: 100%;
+}
+
+.carousel_firm {
+  width: 250px;
+  height: 100px;
+}
+
+.firm img {
+  width: 250px;
+  height: 100px;
+}
+
+.firm_carousel {
+  height: 350px !important;
+}
+
+.by {
+  position: absolute;
+}
+
+.by_Image {
+  height: 450px;
+}
+
+.by_Image-2 {
+  height: 450px;
+  margin-left: 350px;
+}
+
+.react-multi-carousel-item {
+  margin-bottom: 0px !important;
+}
+
+.firm_img img {
+  color: #333;
+  background: aliceblue;
+  border-radius: 15px;
+  padding: 46px;
+  width: 95%;
+  height: 91%;
+}
+/* conatact */
+/* ----------------------------------------------------- */
+
+.HomeContact {
+  height: 40vh;
+}
+
+.HomeContact .title {
+  color: white;
+  margin-top: 50px;
+}
+
+.HomeContact .title_content {
+  color: white;
+}
+
+.HomeContact_content {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeContact_input {
+  width: 350px;
+  height: 50px;
+  border: 1px solid transparent;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #003242;
+  text-align: center;
+}
+
+.HomeContact_button {
+  height: 50px;
+  margin-top: 4px;
+  border-radius: 0px;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+.home_category {
+  background-color: #fff;
+  padding-bottom: 100px;
+}
+
+.home_category .title {
+  padding: 50px;
+}
+
+.category_home {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.categoryHome_contact {
+  display: flex;
+}
+
+.categoryHome_img {
+  width: 40%;
+}
+
+.categoryHome_title {
+  width: 100%;
+  height: 100%;
+  box-shadow: -50px 0px 20px 20px rgb(255, 255, 255);
+  text-align: center;
+
+  padding: 20px;
+}
+
+.categoryHome_button {
+  transition: 0.6s;
+  background-color: #1986cf;
+}
+
+.categoryHome_button:hover {
+  transition: 0.6s;
+  background-color: #0b6c8d;
+}
+
+/* reponsiv */
+/* --------------------------------------------------------------- */
+@media only screen and (max-width: 600px) {
+  .card_content {
+    flex-direction: column;
+  }
+
+  .HomeContact_input {
+    flex-wrap: wrap;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .HomeContact_button {
+    width: 100px;
+  }
+
+  .HomeContact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category_home {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .categoryHome_contact {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .categoryHome_img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .react-multi-carousel-item {
+    width: 100% !important;
+  }
+}
+
+/* -----------------------------------------------------
+dashboard */
+
+.dashboard {
+  height: 135vh;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard_form {
+  width: 50%;
+}
+
+.Product_Heading {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.dashboard_main {
+  display: flex;
+  align-items: center;
+}
+
+.product_search {
+  border: 2px solid #0b6c8d;
+}
+
+.dashboard_category {
+  padding: 15px;
+  width: 100%;
+  border: #989d9e 2px solid;
+  margin-bottom: 25px;
+}
+
+.dashboard_li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard_icon {
+  color: red;
+}
+.ant-tabs-nav-wrap {
+  justify-content: center;
+}
+
+.tabs_img {
+  height: 20%;
+  width: 40%;
+  object-fit: cover;
+}
+.ant-form {
+  width: 30%;
+}
+
+.icons {
+  color: #333;
+  font-size: 80px;
+}
+
+.caregory_menu {
+  margin-bottom: 35px;
+}
+
+.Product_home .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}

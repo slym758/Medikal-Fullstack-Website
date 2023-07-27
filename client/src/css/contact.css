@@ -1,0 +1,137 @@
+.contact {
+  background-color: #fff;
+}
+
+.contact .Product_Heading {
+  margin-bottom: 5px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  height: 550px;
+}
+
+.iframe {
+  height: 100%;
+  width: 100%;
+}
+.contact_info {
+  margin-top: 80px;
+  background-image: url(../assets/contact-bg.jpg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.contact_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 35px;
+}
+
+.grid_main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.contact_grid {
+  height: 250px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(148, 141, 141);
+  border-radius: 25px;
+}
+
+.contact_grid p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_grid h6 {
+  font-family: Nunito Sans;
+  line-height: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  margin: 20px 0 15px 0;
+  font-weight: bold;
+}
+
+.contact_grid_icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #076cec;
+  font-size: 20px;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  position: inherit;
+}
+
+.contact_col_right {
+  padding-left: 35px !important;
+}
+
+.contact_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-form {
+  width: 80%;
+}
+
+.ant-input {
+  height: 45px;
+}
+
+.contact_button {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  height: 100%;
+  width: 80%;
+}
+
+.contact_form input {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid rgb(175, 170, 170);
+  border-radius: 15px;
+  height: 45px;
+}
+
+.contact_form textarea {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid rgb(175, 170, 170);
+  border-radius: 15px;
+  height: 95px;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid_main {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 85px;
+  }
+}
