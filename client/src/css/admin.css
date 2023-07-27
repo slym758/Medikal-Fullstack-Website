@@ -1,0 +1,58 @@
+.gradient-custom-2 {
+  color: #fff;
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    #ee7724,
+    #d8363a,
+    #dd3675,
+    #b44593
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #0ee3ff, #0562ee, #8626f3, #d409db);
+
+  /* background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593); */
+}
+
+.gradient-form {
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-outline .form-control {
+  min-height: 50px !important;
+  align-items: center !important;
+}
+.btn {
+  font-size: 1.5rem !important;
+}
+
+.App {
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
+
+.gradient-form Form {
+  width: 90%;
+}
+
+.gradient-custom-2:hover {
+  color: #fff;
+}
